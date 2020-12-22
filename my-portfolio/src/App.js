@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>
+        <p className="App-header-title">
           Welcome to Fnu Milat's Technical Portfolio!
         </p>
         <img src={header_image} className="App-header-photo"/>
@@ -40,7 +40,23 @@ function App() {
         <p className="Tech-skill">React.js</p>
         <p className="Tech-skill">Redux</p>
         <p className="Tech-skill">Automated Unit Testing</p>
-        <p className="Tech-skill"> Integration Testing</p>
+        <p className="Tech-skill">Integration Testing</p>
+        <p className="Tech-skill">Debugging</p>
+        <p className="Tech-skill"> Deployment</p>
+        <p className="Tech-skill">Node.js</p>
+        <p className="Tech-skill">RESTful APIs</p>
+        <p className="Tech-skill">End-To-End Testing</p>
+        <p className="Tech-skill">Express.js</p>
+        <p className="Tech-skill">Relational Databases</p>
+        <p className="Tech-skill">PostgreSQL</p>
+        <p className="Tech-skill">SQLite Testing</p>
+        <p className="Tech-skill">Authentication</p>
+        <p className="Tech-skill">Python</p>
+        <p className="Tech-skill"> Data Structures</p>
+        <p className="Tech-skill">Algorithms</p>
+        <p className="Tech-skill">Computer Architecture</p>
+        <p className="Tech-skill"> Big-O Notation</p>
+        <p className="Tech-skill">Graphs</p>
       </div>
     </div>
   );
