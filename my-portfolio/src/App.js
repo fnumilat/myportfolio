@@ -1,4 +1,5 @@
 import './App.css';
+import ExpressGroomer from './projects components/ExpressGroomer'
 import header_image from './images/header-photo.jpg';
 
 function App() {
@@ -11,9 +12,7 @@ function App() {
         <img src={header_image} className="App-header-photo"/>
       </header>
       <div className="About-section-header">
-        <p>
-          About Fnu Milat:
-        </p>
+        <p>About Fnu Milat:</p>
       </div>
       <div className="About-section-paragraph">
         <p>
@@ -26,9 +25,7 @@ function App() {
           </p>
       </div>
       <div className="Tech-skills-section-header">
-        <p>
-          Technical Skills:
-        </p>
+        <p>Technical Skills:</p>
       </div>
       <div className="Tech-skills-section-skills">
         <p className="Tech-skill">Javascript</p>
@@ -57,6 +54,12 @@ function App() {
         <p className="Tech-skill">Computer Architecture</p>
         <p className="Tech-skill"> Big-O Notation</p>
         <p className="Tech-skill">Graphs</p>
+      </div>
+      <div className="Projects-section-header">
+        <p>Technical Projects:</p>
+      </div>
+      <div className="Project">
+        <ExpressGroomer />
       </div>
     </div>
   );
