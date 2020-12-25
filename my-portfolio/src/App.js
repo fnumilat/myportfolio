@@ -13,9 +13,9 @@ function App() {
         </p>
         <img src={header_image} className="App-header-photo"/>
       </header>
-      <div className="About-section-header">
+      {/* <div className="About-section-header">
         <p>About Fnu Milat:</p>
-      </div>
+      </div> */}
       <div className="About-section-paragraph">
         <p>
           Fnu Milat is a Full Stack Web Developer, graduated from Lambda School, 
