@@ -1,2 +1,2 @@
 # My Technical Portfolio.
-Welcome to my Portfolio's repository.
+This is Fnu Milat's technical Portfolio where Fnu showcases his favorite accomplished technical projects.
