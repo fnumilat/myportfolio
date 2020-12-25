@@ -35,6 +35,8 @@
 @media only screen and (max-width: 500px) {
   .App-header-title {
     font-size: 20px;
+    width: 100%;
+    margin: 1%;
   }
 }
 
@@ -108,6 +110,7 @@
 }
 
 .About-section-header {
+  display: none;
   font-size: 35px;
   color: white;
   margin-bottom: -1%;
@@ -281,7 +284,7 @@
 /* Extra small devices (phones, 500px and down) */
 @media only screen and (max-width: 500px) {
   .Project-title {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
