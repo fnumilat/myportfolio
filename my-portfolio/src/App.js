@@ -1,5 +1,7 @@
 import './App.css';
 import ExpressGroomer from './projects components/ExpressGroomer'
+import GameOfLife from './projects components/GameOfLife'
+import SaveTheAnimals from './projects components/SaveTheAnimals'
 import header_image from './images/header-photo.jpg';
 
 function App() {
@@ -60,6 +62,24 @@ function App() {
       </div>
       <div className="Project">
         <ExpressGroomer />
+      </div>
+      <div className="Project">
+        <GameOfLife />
+      </div>
+      <div className="Project">
+        <SaveTheAnimals />
+      </div>
+      <div className="Find-me-section-header">
+        <p>Find Fnu Also In These Platforms:</p>
+      </div>
+      <div className="Find-me">
+        <a href="https://twitter.com/fnumilat_webdev" target="_blank" class="fa fa-twitter"></a>
+        <a href="https://www.linkedin.com/in/fnu-milat-93ab89186/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://www.instagram.com/fnumilat_webdev/" target="_blank" class="fa fa-instagram"></a>
+        <a href="https://github.com/fnumilat" target="_blank" class="fa fa-github"></a>
+      </div>
+      <div className="Footer">
+        <p>Fnu Milat - 2020</p>
       </div>
     </div>
   );

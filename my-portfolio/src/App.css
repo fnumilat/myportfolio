@@ -111,7 +111,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 4%;
+  margin-bottom: 2%;
   margin-top: 1%;
   padding: 30px;
   /* border: white 2px solid; */
@@ -156,10 +156,81 @@
   transition: 0.3s;
   opacity: 1;
   padding: 6px;
+  text-decoration: none;
+  outline: none;
 }
 
 .Project-button:hover {
   opacity: 0.6;
+  text-decoration: none;
 }
 
+.Find-me-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 35px;
+  color: white;
+  margin-top: -2%;
+  margin-bottom: -1%;
+  /* border: white 2px solid; */
+}
 
+.Find-me {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1%;
+  /* margin-top: 1%; */
+  padding: 10px;
+  /* border: white 2px solid; */
+  width: 50%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 5px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-instagram {
+  background: red;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
+
+.Footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: white;
+  margin-top: -1%;
+  margin-bottom: -25%;
+  /* border: white 2px solid; */
+}

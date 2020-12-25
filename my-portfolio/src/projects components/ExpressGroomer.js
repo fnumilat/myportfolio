@@ -18,8 +18,8 @@ function ExpressGroomer() {
         <p>Role: Back-End Developer</p>
       </div>
       <div className="Project-buttons">
-        <button className="Project-button">See The Code</button>
-        <button className="Project-button">See The Deployed Site</button>
+        <a href="https://github.com/Lambda-School-Labs/LabsPT12-Express_Groomer-TeamD-BE" target="_blank"><button className="Project-button">See The Code</button></a>
+        <a href="https://main.d3jas6g6byv0f1.amplifyapp.com/" target="_blank"><button className="Project-button">See The Deployed Site</button></a>
       </div>
     </div>
   );
