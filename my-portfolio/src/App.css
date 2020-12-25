@@ -24,6 +24,13 @@
   /* transition: transform .1s; */
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .App-header-title {
+    font-size: 25px;
+  }
+}
+
 .App-header-title:hover {
   transform: scale(1.1);
 }
@@ -35,6 +42,13 @@
   justify-content: center;
   width: 50%;
   border-radius: 5px;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .App-header-photo {
+    width: 90%;
+  }
 }
 
 .App-header-photo:hover {
@@ -62,16 +76,39 @@
   margin-bottom: -1%;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .About-section-header {
+    font-size: 25px;
+    margin-bottom: -4%;
+  }
+}
+
 .About-section-paragraph {
   width: 50%;
   font-size: 20px;
   color: white;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .About-section-paragraph {
+    font-size: 15px;
+    width: 90%;
+  }
+}
+
 .Tech-skills-section-header {
   font-size: 35px;
   color: white;
   margin-bottom: -1%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .Tech-skills-section-header {
+    font-size: 25px;
+  }
 }
 
 .Tech-skills-section-skills {
@@ -82,6 +119,14 @@
   color: black;
   width: 50%;
   flex-wrap: wrap;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .Tech-skills-section-skills {
+    font-size: 15px;
+    width: 90%;
+  }
 }
 
 .Tech-skill {
@@ -106,6 +151,13 @@
   /* border: white 2px solid; */
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .Projects-section-header {
+    font-size: 25px;
+  }
+}
+
 .Project {
   display: flex;
   flex-direction: column;
@@ -120,12 +172,26 @@
   border-radius: 5px;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .Project {
+    width: 80%;
+  }
+}
+
 .Project-title {
   font-size: 26px;
   color: #FBEC00;
   font-weight: bold;
   margin-top: -5%;
   background-color: black;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .Project-title {
+    font-size: 20px;
+  }
 }
 
 .Project-photo {
@@ -140,11 +206,26 @@
     /* border: solid #AA3939 1px; */
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .Project-description {
+    font-size: 15px;
+  }
+}
+
+
 .Project-role {
   font-size: 20px;
   color: black;
   font-weight: bold;
     /* border: solid #AA3939 1px; */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .Project-role {
+    font-size: 15px;
+  }
 }
 
 .Project-button {
@@ -158,6 +239,13 @@
   padding: 6px;
   text-decoration: none;
   outline: none;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .Project-button {
+    font-size: 12px;
+  }
 }
 
 .Project-button:hover {
@@ -176,6 +264,14 @@
   /* border: white 2px solid; */
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .Find-me-section-header {
+    font-size: 25px;
+  }
+}
+
+
 .Find-me {
   display: flex;
   flex-direction: row;
@@ -190,6 +286,13 @@
   border-radius: 5px;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .Find-me {
+    width: 90%;
+  }
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -198,6 +301,14 @@
   text-decoration: none;
   margin: 10px 5px;
   border-radius: 50%;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .fa {
+    width: 10px;
+    font-size: 20px;
+  }
 }
 
 .fa:hover {
@@ -228,9 +339,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 15gpx;
+  font-size: 15px;
   color: white;
   margin-top: -1%;
   margin-bottom: -25%;
   /* border: white 2px solid; */
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .fa {
+    font-size: 10px;
+  }
 }
