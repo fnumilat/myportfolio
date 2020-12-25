@@ -315,13 +315,6 @@
   }
 }
 
-/* Extra small devices (phones, 500px and down) */
-@media only screen and (max-width: 500px) {
-  .Project-title {
-    font-size: 14px;
-  }
-}
-
 
 .Project-role {
   font-size: 20px;
