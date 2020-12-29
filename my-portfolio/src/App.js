@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <p className="App-header-title">
-          Welcome to Fnu Milat's Technical Portfolio!
+          Fnu Milat's Technical Portfolio
         </p>
         <img src={header_image} className="App-header-photo"/>
       </header>
