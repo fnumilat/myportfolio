@@ -19,7 +19,7 @@ function ExpressGroomer() {
       </div>
       <div className="Project-buttons">
         <a href="https://github.com/Lambda-School-Labs/LabsPT12-Express_Groomer-TeamD-BE" target="_blank"><button className="Project-button">See The Code</button></a>
-        <a href="https://main.d3jas6g6byv0f1.amplifyapp.com/" target="_blank"><button className="Project-button">See The Deployed Site</button></a>
+        {/* <a href="https://main.d3jas6g6byv0f1.amplifyapp.com/" target="_blank"><button className="Project-button">See The Deployed Site</button></a> */}
       </div>
     </div>
   );
