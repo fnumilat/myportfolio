@@ -1,6 +1,9 @@
 import './App.css';
+import ListOfStudents from './projects components/ListOfStudents'
 import ExpressGroomer from './projects components/ExpressGroomer'
 import GameOfLife from './projects components/GameOfLife'
+import NasaPhotoOfTheDay from './projects components/NasaPhotoOfTheDay'
+import RickyMortyFanPage from './projects components/RickyMortyFanPage'
 import SaveTheAnimals from './projects components/SaveTheAnimals'
 import header_image from './images/header-photo.jpg';
 
@@ -61,10 +64,19 @@ function App() {
         <p>Technical Projects:</p>
       </div>
       <div className="Project">
+        <ListOfStudents />
+      </div>
+      <div className="Project">
         <ExpressGroomer />
       </div>
       <div className="Project">
         <GameOfLife />
+      </div>
+      <div className="Project">
+        <NasaPhotoOfTheDay />
+      </div>
+      <div className="Project">
+        <RickyMortyFanPage />
       </div>
       <div className="Project">
         <SaveTheAnimals />
