@@ -21,6 +21,7 @@
   padding-left: 10px;
   padding-right: 10px;
   font-weight: bold;
+  margin-bottom: 1%;
   /* transition: transform .1s; */
 }
 
@@ -32,17 +33,17 @@
 } */
 
 /* Extra small devices (phones, 500px and down) */
-@media only screen and (max-width: 500px) {
+ @media only screen and (max-width: 500px) {
   .App-header-title {
     font-size: 20px;
-    width: 100%;
-    margin: 1%;
+    width: 90%;
+    margin-top: 3%;
   }
 }
 
-.App-header-title:hover {
+/*.App-header-title:hover {
   transform: scale(1.1);
-}
+} */
 
 /* Small devices (phones, 600px and down) */
 /* @media only screen and (max-width: 600px) {
@@ -52,19 +53,19 @@
 } */
 
 /* Extra small devices (phones, 500px and down) */
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   .App-header-title:hover {
     transform: none;
   }
-}
+} */
 
 .App-header-photo {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 50%;
-  border-radius: 5px;
+  width: 100%;
+  /* border-radius: 5px; */
 }
 
 /* Small devices (phones, 600px and down) */
@@ -75,27 +76,26 @@
 } */
 
 /* Extra small devices (phones, 500px and down) */
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   .App-header-photo {
     width: 100%;
     border-radius: 0;
   }
-}
+} */
 
-.App-header-photo:hover {
+/* .App-header-photo:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
-}
+} */
 
 /* Extra small devices (phones, 500px and down) */
-@media only screen and (max-width: 500px) {
+/* @media only screen and (max-width: 500px) {
   .App-header-photo:hover {
     animation: shake 0.5s;
-    /* animation-iteration-count: infinite; */
   }
-}
+}*/
 
-@keyframes shake {
+/* @keyframes shake {
   0% { transform: translate(1px, 1px) rotate(0deg); }
   10% { transform: translate(-1px, -2px) rotate(-1deg); }
   20% { transform: translate(-3px, 0px) rotate(1deg); }
@@ -107,7 +107,7 @@
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
+} */
 
 .About-section-header {
   display: none;
@@ -369,44 +369,20 @@
   text-decoration: none;
 }
 
-.Find-me-section-header {
+.Main-Footer-Box {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 35px;
-  color: white;
-  margin-top: -2%;
-  margin-bottom: -1%;
-  /* border: white 2px solid; */
-}
-
-/* Small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
-  .Find-me-section-header {
-    font-size: 25px;
-  }
-} */
-
-/* Extra small devices (phones, 500px and down) */
-@media only screen and (max-width: 500px) {
-  .Find-me-section-header {
-    font-size: 20px;
-  }
-}
-
-
-.Find-me {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 1%;
-  /* margin-top: 1%; */
-  padding: 10px;
-  /* border: white 2px solid; */
-  width: 50%;
+  width: 100%;
   background-color: white;
-  border-radius: 5px;
+}
+
+.Platforms {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 10px;
 }
 
 /* Small devices (phones, 600px and down) */
@@ -418,13 +394,13 @@
 
 /* Extra small devices (phones, 500px and down) */
 @media only screen and (max-width: 500px) {
-  .Find-me {
+  .Platforms {
     width: 100%;
   }
 }
 
 .fa {
-  padding: 20px;
+  padding: 11px;
   font-size: 30px;
   width: 30px;
   text-align: center;
@@ -444,6 +420,7 @@
 /* Extra small devices (phones, 500px and down) */
 @media only screen and (max-width: 500px) {
   .fa {
+    padding: 20px;
     width: 10px;
     font-size: 12px;
   }
@@ -473,15 +450,13 @@
   color: white;
 }
 
-.Footer {
+.Created-By-Text {
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 15px;
-  color: white;
+  color: black;
   margin-top: -1%;
-  margin-bottom: -25%;
-  /* border: white 2px solid; */
 }
 
 /* Small devices (phones, 600px and down) */
@@ -493,7 +468,7 @@
 
 /* Extra small devices (phones, 500px and down) */
 @media only screen and (max-width: 500px) {
-  .Footer {
+  .Created-By-Text {
     font-size: 10px;
   }
 }

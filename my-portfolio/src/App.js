@@ -11,10 +11,10 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p className="App-header-title">
-          Fnu Milat's Technical Portfolio
-        </p>
         <img src={header_image} className="App-header-photo"/>
+        <p className="App-header-title">
+          Welcome Fnu Milat's Technical Portfolio!
+        </p>
       </header>
       {/* <div className="About-section-header">
         <p>About Fnu Milat:</p>
@@ -81,18 +81,17 @@ function App() {
       <div className="Project">
         <SaveTheAnimals />
       </div>
-      <div className="Find-me-section-header">
-        <p>Find Fnu Also In These Platforms:</p>
-      </div>
-      <div className="Find-me">
-        <a href="https://twitter.com/fnumilat_webdev" target="_blank" class="fa fa-twitter"></a>
-        <a href="https://www.linkedin.com/in/fnu-milat-93ab89186/" target="_blank" class="fa fa-linkedin"></a>
-        <a href="https://www.instagram.com/fnumilat_webdev/" target="_blank" class="fa fa-instagram"></a>
-        <a href="https://github.com/fnumilat" target="_blank" class="fa fa-github"></a>
-      </div>
-      <div className="Footer">
-        <p>Fnu Milat - 2020</p>
-      </div>
+      <footer className="Main-Footer-Box">
+        <div className="Platforms">
+          <a href="https://twitter.com/fnumilat_webdev" target="_blank" class="fa fa-twitter"></a>
+          <a href="https://www.linkedin.com/in/fnu-milat-93ab89186/" target="_blank" class="fa fa-linkedin"></a>
+          <a href="https://www.instagram.com/fnumilat_webdev/" target="_blank" class="fa fa-instagram"></a>
+          <a href="https://github.com/fnumilat" target="_blank" class="fa fa-github"></a>
+        </div>
+        <div className="Created-By-Text">
+          <p>2020 | Fnu Milat</p>
+        </div>
+      </footer>
     </div>
   );
 }
