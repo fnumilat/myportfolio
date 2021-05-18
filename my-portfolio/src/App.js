@@ -5,15 +5,18 @@ import GameOfLife from './projects components/GameOfLife'
 import NasaPhotoOfTheDay from './projects components/NasaPhotoOfTheDay'
 import RickyMortyFanPage from './projects components/RickyMortyFanPage'
 import SaveTheAnimals from './projects components/SaveTheAnimals'
-import header_image from './images/header-photo.jpg';
+import header_first_image from './images/header-first-photo.jpg';
+import header_second_image from './images/header-second-photo.jpg';
+import header_third_image from './images/header-third-photo.jpg';
+import header_fourth_image from './images/header-fourth-photo.jpg';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={header_image} className="App-header-photo"/>
+        <img src={header_first_image} className="App-header-photo"/>
         <p className="App-header-title">
-          Welcome Fnu Milat's Technical Portfolio!
+          Welcome to Fnu Milat's Technical Portfolio!
         </p>
       </header>
       {/* <div className="About-section-header">
