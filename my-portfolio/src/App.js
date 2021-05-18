@@ -19,9 +19,6 @@ function App() {
           Welcome to Fnu Milat's Technical Portfolio!
         </p>
       </header>
-      {/* <div className="About-section-header">
-        <p>About Fnu Milat:</p>
-      </div> */}
       <div className="About-section-paragraph">
         <p>
           Fnu Milat is a Full Stack Web Developer, graduated from Lambda School, 
