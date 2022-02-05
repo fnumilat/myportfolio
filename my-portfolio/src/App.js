@@ -1,4 +1,5 @@
 import './App.css';
+import FourtyPositiveQuotes from './projects components/FourtyPositiveQuotes'
 import ListOfStudents from './projects components/ListOfStudents'
 import ExpressGroomer from './projects components/ExpressGroomer'
 import GameOfLife from './projects components/GameOfLife'
@@ -62,6 +63,9 @@ function App() {
       </div>
       <div className="Projects-section-header">
         <p>Technical Projects:</p>
+      </div>
+      <div className="Project">
+        <FourtyPositiveQuotes />
       </div>
       <div className="Project">
         <ListOfStudents />
