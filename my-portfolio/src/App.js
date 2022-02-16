@@ -22,13 +22,14 @@ function App() {
       </header>
       <div className="About-section-paragraph">
         <p>
-          Fnu Milat is a Full Stack Web Developer, graduated from Lambda School, 
-          and also has earned his Associate of Applied Science in Business Administration from Remington College. 
-          The web applications and programs that Fnu has been using in a day to day life have fascinated him by how much
-          they are making life easier and the curiosity of how they all are being created is what has attracted him to take the new journey,
-          and learn. Now Fnu is ready and excited to utilize the knowledge he has gained to build applications and programs that
-          can bring more value to the world.
-          </p>
+        Fnu is a Full-Stack Engineer, graduated from Lambda School (which is now Bloom Institute of Technology). 
+        He has earned his Associate of Applied Science in Business Administration from Remington College. 
+        He has been always fascinated by the applications and programs that we use in a day to day life and the curiosity of 
+        how those applications are being created attracted him to learn about the development process, 
+        then he found his way through Lambda School (which is now Bloom Institute of Technology) and studied the Full-Stack Software Development. 
+        He has gained skills and experience during his time at Lambda School and is excited to utilize them to build reliable and 
+        performing applications and programs that can bring more value to the world.
+        </p>
       </div>
       <div className="Tech-skills-section-header">
         <p>Technical Skills:</p>
