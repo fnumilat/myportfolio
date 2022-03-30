@@ -22,13 +22,9 @@ function App() {
       </header>
       <div className="About-section-paragraph">
         <p>
-        Fnu is a Full-Stack Engineer, graduated from Lambda School (which is now Bloom Institute of Technology). 
-        He has earned his Associate of Applied Science in Business Administration from Remington College. 
-        He has been always fascinated by the applications and programs that we use in a day to day life and the curiosity of 
-        how those applications are being created attracted him to learn about the development process, 
-        then he found his way through Lambda School (which is now Bloom Institute of Technology) and studied the Full-Stack Software Development. 
-        He has gained skills and experience during his time at Lambda School and is excited to utilize them to build reliable and 
-        performing applications and programs that can bring more value to the world.
+        An enthusiast Full-Stack Engineer, I studied the Full-Stack Web Development
+        and Computer Science Fundamentals at Lambda School (now BloomTech). Using my programming skills and knowledge, 
+        I hope to build reliable, high-performing applications and programs that are capable of making a positive impact on the world.
         </p>
       </div>
       <div className="Tech-skills-section-header">
